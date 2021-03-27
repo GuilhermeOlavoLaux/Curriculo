@@ -34,7 +34,7 @@ body{
 
 /* Header */
 header{
-    background-color: #657EFC;
+    background-color: #0677D4;
     padding-top: 30px;
 }
 header .container{
@@ -60,7 +60,7 @@ header .coluna h1{
 }
 header .coluna p{
     font-size: 1.0rem;
-    color: #636363;
+    color: #055BA1;
 }
 header .coluna ul{}
 header .coluna ul li{}
@@ -74,33 +74,49 @@ main{}
 main .container{}
 main .linha{}
 main .coluna{}
-main .coluna-esquerda{}
-main .coluna-direita{}
+main .coluna-esquerda{
+}
+main .coluna-direita{
+    
+}
 main .coluna{}
-main .coluna section{}
+main .coluna section{
+    border: 1px solid #4899DB;
+    margin: 0 0 20px;
+    padding: 20px;
+    min-height: 230px;
+}
 main .coluna section h2{
     font-size: 1.3rem;
+    margin: 0 0 10px;
 }
 main .coluna section p{
     font-size: 0.9rem;
-    color: #636363;
+    color: #2D3870;
+    line-height: 1.5;
 
 }
-main .coluna section ul{}
-main .coluna section ul li{
+main .coluna section ul{
+    padding: 10px;
     
+}
+main .coluna section ul li{
+    margin: 0 0 12px;
+
 }
 main .coluna section ul li h3{
     font-size: 0.9rem;
 }
-main .coluna section ul li strong{}
+main .coluna section ul li strong{
+    
+}
 main .coluna section ul p{}
 
 
 
 /* Footer */
 footer{
-    background-color: #657EFC;
+    background-color: #0677D4;
 }
 footer .container{}
 footer nav{}
