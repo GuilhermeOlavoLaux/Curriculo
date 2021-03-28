@@ -31,7 +31,11 @@ body{
 
 /* Header */
 header{
+<<<<<<< HEAD
     background-color: var(--corBackgroundPrimaria);
+=======
+    background-color: #0677D4;
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
     padding-top: 30px;
     padding: 30px 30px 0;
 }
@@ -66,7 +70,11 @@ header .coluna h1{
 
 header .coluna p{
     font-size: 1.0rem;
+<<<<<<< HEAD
     color: var(--corTextoSecudaria);
+=======
+    color: #055BA1;
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
 }
 
 header .coluna ul li a{
@@ -79,6 +87,7 @@ header strong{
 
 
 /* Main */
+<<<<<<< HEAD
 main .coluna{
     padding: 20px;
 }
@@ -92,6 +101,27 @@ main .coluna section{
 
 main .coluna section h2{
     margin: 0 0 15px;
+=======
+main{}
+main .container{}
+main .linha{}
+main .coluna{}
+main .coluna-esquerda{
+}
+main .coluna-direita{
+    
+}
+main .coluna{}
+main .coluna section{
+    border: 1px solid #4899DB;
+    margin: 0 0 20px;
+    padding: 20px;
+    min-height: 230px;
+}
+main .coluna section h2{
+    font-size: 1.3rem;
+    margin: 0 0 10px;
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
 }
 
 main .coluna section h4{
@@ -103,14 +133,20 @@ main .coluna section h4{
 
 main .coluna section p{
     font-size: 0.9rem;
+<<<<<<< HEAD
     color: var(--corTextPrimaria);
     line-height: 1.5;
     color: var(--corTextPrimaria);
 }
+=======
+    color: #2D3870;
+    line-height: 1.5;
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
 
 main .coluna section ul{
     padding: 10px;
 }
+<<<<<<< HEAD
 
 main .coluna section ul li{
     margin-top: 10px;
@@ -123,6 +159,16 @@ main .coluna section ul li h2{
     color: var(--corTextPrimaria);
 }
 
+=======
+main .coluna section ul{
+    padding: 10px;
+    
+}
+main .coluna section ul li{
+    margin: 0 0 12px;
+
+}
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
 main .coluna section ul li h3{
     font-size: 0.9rem;
     color: var(--corTextPrimaria);
@@ -135,11 +181,19 @@ main .coluna section ul li h4{
     font-size: 0.7rem;
     font-weight: normal;
 }
+<<<<<<< HEAD
+=======
+main .coluna section ul li strong{
+    
+}
+main .coluna section ul p{}
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
 
 
 
 /* Footer */
 footer{
+<<<<<<< HEAD
     background-color: var(--corBackgroundSecundaria);
 }
 
@@ -153,6 +207,9 @@ footer nav ul li a{
 
 footer nav ul li a strong{
     padding-bottom: 10px;
+=======
+    background-color: #0677D4;
+>>>>>>> 1570c8563b9f8f9b0b2b7312e72a14ee7b47f85e
 }
 
 footer nav ul li a img{
