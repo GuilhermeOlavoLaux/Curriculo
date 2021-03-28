@@ -11,112 +11,178 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-    width: 100%;
-    max-width: 1125px;
-    margin: 0 auto 0 auto;
-    padding: 30px;
-}
 
-.linha{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-}
 
 .coluna{
-    flex-basis: 49%;
-    
+    flex-basis: 49%;   
 }
 
 
 /* Header */
 header{
-    background-color: #657EFC;
+    background-color: #0677D4;
     padding-top: 30px;
+    padding: 30px 30px 0;
 }
+
 header .container{
     background-color: white;
 }
+
 header .linha{
     align-items: center;
 }
-header .coluna{
-}
+
 header .coluna-esquerda{
     flex-basis: 30%;
 }
+
 header .coluna-direita{
     flex-basis: 70%;
+    text-align: center;
 }
+
 header .coluna img{
     max-width: 250px;
     max-height: 250px;
 }
+
 header .coluna h1{
     font-size: 1.5rem;
 }
+
 header .coluna p{
     font-size: 1.0rem;
-    color: #636363;
+    color: #055BA1;
 }
-header .coluna ul{}
-header .coluna ul li{}
+
 header .coluna ul li a{
     font-size: 1.0rem;
     color: black;
 }
 
+
+
 /* Main */
-main{}
-main .container{}
-main .linha{}
-main .coluna{}
-main .coluna-esquerda{}
-main .coluna-direita{}
-main .coluna{}
-main .coluna section{}
+main .coluna section{
+    border: 1px solid #4899DB;
+    margin: 0 0 20px;
+    padding: 20px;
+    min-height: 230px;
+}
+
 main .coluna section h2{
     font-size: 1.3rem;
+    margin: 0 0 10px;
 }
+
 main .coluna section p{
     font-size: 0.9rem;
-    color: #636363;
+    color: #2D3870;
+    line-height: 1.5;
+}
+
+main .coluna section ul{
+    padding: 10px;
+}
+
+main .coluna section ul li{
+    margin: 0 0 12px;
 
 }
-main .coluna section ul{}
-main .coluna section ul li{
-    
-}
+
 main .coluna section ul li h3{
     font-size: 0.9rem;
 }
-main .coluna section ul li strong{}
-main .coluna section ul p{}
 
 
 
 /* Footer */
 footer{
-    background-color: #657EFC;
+    background-color: #083F8A;
 }
-footer .container{}
-footer nav{}
-footer nav ul{}
-footer nav ul li{}
-footer nav ul li a{}
+
+footer nav ul li{
+    margin: 0px 14px;
+}
+
+footer nav ul li a{
+    color: white;
+}
+
+footer nav ul li a strong{
+    padding-bottom: 10px;
+}
+
 footer nav ul li a img{
-    width: 20px;
+    width: 50px;
+    
 }
-footer nav .info-contato{}
-footer nav .redes-sociais{}
+
+footer nav .info-contato li{
+    margin-bottom: 15px;
+    
+}
+
+footer nav .redes-sociais{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #5d6570d0;
+    margin: 20px;
+    padding-top: 50px;
+}
 
 
 
 
+/* Media */
+@media only screen and (min-width: 768px){
+    .linha{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 
+    footer nav .redes-sociais{
+        display: flex;
+        justify-content: center;
+    }
+
+    header{
+        padding: 30px 0 0;
+    }
+
+    header .coluna img{
+        max-width: 250px;
+        border: 1px solid #4899DB;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 1125px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    header .coluna-direita{
+        text-align: left;
+    }    
+
+    header .coluna img{
+        max-width: 100%;
+        border-radius: 100%;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 1125px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
 
 
 
